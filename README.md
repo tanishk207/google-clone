@@ -1,1 +1,1 @@
-Run following commands in terminal to make the code working
+here is the link of the clone : https://google-clone-fb34o19jb-developertanishk-gmailcom.vercel.app/
