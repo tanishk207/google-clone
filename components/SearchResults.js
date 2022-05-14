@@ -8,8 +8,8 @@ function SearchResults({ results }) {
             {results.items?.map(result => (
                 <div key={result.link} className='max-w-xl mb-8'>
                     <div className='group'>
-                        <a target='_blank' rel='no-referrer' href={result.link} className='text-sm'>{result.formattedUrl}</a>
-                        <a target='_blank' rel='no-referrer' href={result.link}>
+                        <a target='_blank' rel="noreferrer" href={result.link} className='text-sm'>{result.formattedUrl}</a>
+                        <a target='_blank' rel="noreferrer" href={result.link}>
                             <h2 className='truncate text-xl text-blue-800 font-medium group-hover:underline'>{result.title}</h2>
                         </a>
                     </div>
